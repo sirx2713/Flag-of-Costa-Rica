@@ -1,0 +1,29 @@
+body{
+    font-family: "SF Pro Display", serif;
+    background-color: #F6FAB9;
+}
+#main-div{
+    display: flex;
+    flex-direction: column;
+}
+#main-div > #blue-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 800px;
+    width: 1200px;
+    background-color: #00205B;
+}
+#main-div > #blue-div > #white-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 600px;
+    width: 1200px;
+    background-color: #FFFFFF;
+}
+#main-div > #blue-div > #white-div > #red-div{
+    height: 400px;
+    width: 1200px;
+    background-color: #EF3340;
+}
